@@ -53,7 +53,7 @@ $readableNumber = ReadableNumbers::make(123456789, 4, 'de'); // 123.4568 Mio.
 
 ### Directive Example
 
-There is only one directive: `@readableNumber()`, again takes three arguments: `@readableNumber(float $value, int $decimals = 1, $lang = null)` and all arguments are required. If you use a multi-language system, you should remember to directives are cached. So, you should pass decimal count and language.
+There is only one directive: `@readableNumber()`, again takes three arguments: `@readableNumber(float $value, int $decimals = 1, $lang = null)`. If you use a multi-language system, you should remember to directives are cached. So, you should pass decimal count and language.
 
 
 ```html
