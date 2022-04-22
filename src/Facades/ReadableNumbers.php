@@ -8,6 +8,6 @@ class ReadableNumbers extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'theme-store';
+        return 'readable-numbers';
     }
 }
