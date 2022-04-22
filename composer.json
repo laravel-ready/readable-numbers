@@ -16,8 +16,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/laravel-ready/theme-store/issues",
-        "source": "https://github.com/laravel-ready/theme-store"
+        "issues": "https://github.com/laravel-ready/readable-numbers/issues",
+        "source": "https://github.com/laravel-ready/readable-numbers"
     },
     "require": {
         "php": "^8.0.2",
