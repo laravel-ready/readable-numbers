@@ -1,6 +1,6 @@
 # Readable Numbers
 
-[![EgoistDeveloper Readable Numbers](https://preview.dragon-code.pro/EgoistDeveloper/Readable-Numbers.svg?brand=laravel)](https://github.com/laravel-ready/readable-numbers)
+[![relliv Readable Numbers](https://preview.dragon-code.pro/relliv/Readable-Numbers.svg?brand=laravel)](https://github.com/laravel-ready/readable-numbers)
 
 [![Stable Version][badge_stable]][link_packagist]
 [![Unstable Version][badge_unstable]][link_packagist]
@@ -29,7 +29,6 @@ composer require laravel-ready/readable-numbers
 
 `make` method takes 3 aguments: `make(float $value, int $decimals = 1, $lang = null)`
 
-
 ### Service Example
 
 ```php
@@ -55,7 +54,6 @@ $readableNumber = ReadableNumbers::make(123456789, 4, 'de'); // 123.4568 Mio.
 
 There is only one directive: `@readableNumber()`, again takes three arguments: `@readableNumber(float $value, int $decimals = 1, $lang = null)`. If you use a multi-language system, you should remember to directives are cached. So, you should pass decimal count and language.
 
-
 ```html
 
 ...
@@ -80,7 +78,6 @@ Supported languages are listed [here](lang/) and reference are used in [unicode.
 
 Don't forget to these shortings are depends on a mathematical view.
 
-
 [badge_downloads]:      https://img.shields.io/packagist/dt/laravel-ready/readable-numbers.svg?style=flat-square
 
 [badge_license]:        https://img.shields.io/packagist/l/laravel-ready/readable-numbers.svg?style=flat-square
@@ -92,4 +89,3 @@ Don't forget to these shortings are depends on a mathematical view.
 [link_license]:         LICENSE
 
 [link_packagist]:       https://packagist.org/packages/laravel-ready/readable-numbers
-
