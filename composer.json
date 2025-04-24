@@ -10,7 +10,7 @@
     ],
     "authors": [
         {
-            "name": "EgoistDeveloper",
+            "name": "relliv",
             "email": "epsilonelittr@gmail.com"
         }
     ],
@@ -20,12 +20,12 @@
     },
     "require": {
         "php": "^8.2 || ^8.1 || ^8.0",
-        "illuminate/support": "^11.8 || ^10.0 || ^9.0"
+        "illuminate/support": "^v12.10 || ^11.8 || ^10.0 || ^9.0"
     },
     "require-dev": {
-        "mockery/mockery": "^1.6.12",
-        "orchestra/testbench": "v9.1.0",
-        "phpunit/phpunit": "^10.5.20"
+        "mockery/mockery": "^1.6",
+        "orchestra/testbench": "v10.2",
+        "phpunit/phpunit": "^12.1"
     },
     "autoload": {
         "psr-4": {
